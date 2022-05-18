@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-font: 'Open Sans', sans-serif;
+    --main-title: #070707;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.container {
+    width: 100%;
+    max-width: 943px;
+    margin: 0 auto;
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.header__menu-item {
+    list-style: none;
+}
+
+.header__menu {
+    padding: 29px 0;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #828282;
+}
+
+.header__menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header__menu-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--main-title);
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 64px;
+    color: var(--main-title);
+    margin-bottom: 38px;
+}
+
+.header__img {
+    width: 943px;
+    height: 387px;
+    background-image: url(./header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.content__container {
+    width: 100%;
+    max-width: 943px;
+    margin: 0 auto;
+    background: #F6F6F6;
+    padding: 100px;
+}
+
+.content__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 28px;
+}
+
+content__text-container {
+    position: absolute;
+    width: 480px;
+    height: 246px;
+    left: 477.33px;
+    top: 870px;
+}
+
+.content__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 100px;
+}
+
+.skills__container {
+    position: absolute;
+    width: 936.59px;
+    height: 396.14px;
+    left: 254px;
+    top: 1316.8px;
+}
+
+.skills__header {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 44px;
+    padding-top: 100px;
+}
+
+.skills__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 78px;
+}
+
+.skills__list-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
